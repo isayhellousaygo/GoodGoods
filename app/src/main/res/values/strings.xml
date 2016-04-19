@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GoodGoods</string>
+
+    <!--首页底部导航栏文字-->
+    <string name="navigation_shop">商店</string>
+    <string name="navigation_magazine">杂志</string>
+    <string name="navigation_share">分享</string>
+    <string name="navigation_hero">达人</string>
+    <string name="navigation_mine">个人</string>
+</resources>

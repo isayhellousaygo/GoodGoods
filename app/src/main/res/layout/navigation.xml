@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/base"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:checked="true"
+        android:text="@string/navigation_shop"
+        android:id="@+id/navigation_shop"
+        style="@style/navigation_item"
+        android:drawableTop="@drawable/navigation_shop_icon" />
+
+    <RadioButton
+        android:text="@string/navigation_magazine"
+        android:id="@+id/navigation_magazine"
+        style="@style/navigation_item"
+        android:drawableTop="@drawable/navigation_magazine_icon" />
+
+    <RadioButton
+        android:text="@string/navigation_share"
+        android:id="@+id/navigation_share"
+        style="@style/navigation_item"
+        android:drawableTop="@drawable/navigation_share_icon" />
+
+    <RadioButton
+        android:text="@string/navigation_hero"
+        android:id="@+id/navigation_hero"
+        style="@style/navigation_item"
+        android:drawableTop="@drawable/navigation_hero_icon" />
+
+    <RadioButton
+        android:text="@string/navigation_mine"
+        android:id="@+id/navigation_mine"
+        style="@style/navigation_item"
+        android:drawableTop="@drawable/navigation_mine_icon" />
+
+</RadioGroup>
